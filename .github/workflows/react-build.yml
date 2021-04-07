@@ -37,7 +37,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-        - name: Install Postcss
+      - name: Install Postcss
         run: npm install -g postcss postcss-cli
 
       - name: Run the tests
